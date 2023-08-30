@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"test"
+	piscine "test/reversebits"
 )
 
 func main() {

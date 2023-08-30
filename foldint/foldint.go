@@ -11,6 +11,9 @@ func FoldInt(f func(int, int) int, a []int, n int) {
 }
 
 func Itoa(n int) string {
+	if n == 0 {
+		return "0"
+	}
 	s := ""
 	for n != 0 {
 		s = string(n%10+'0') + s
